@@ -223,7 +223,7 @@ MStatus eae6320::cMayaMeshExporter::writer( const MFileObject& i_file, const MSt
 	}
 	// Write the mesh data to the requested file
 	{
-		const auto filePath = i_file.fullName();
+		const auto filePath = i_file.resolvedFullName();
 		return WriteMeshToFile( filePath, vertexArray, indexArray, materialInfo );
 	}
 }
@@ -260,7 +260,8 @@ namespace
 			for ( size_t i = 0; i < shadingGroupCount; ++i )
 			{
 				const auto& shadingGroup = i_shadingGroups[i];
-				auto surfaceShaderPlug = MFnDependencyNode( shadingGroup ).findPlug( "surfaceShader", &status );
+				const auto findNetworkedPlugIfPossible = true;
+				auto surfaceShaderPlug = MFnDependencyNode( shadingGroup ).findPlug( "surfaceShader", findNetworkedPlugIfPossible, &status );
 				if ( status )
 				{
 					MPlugArray connections;
