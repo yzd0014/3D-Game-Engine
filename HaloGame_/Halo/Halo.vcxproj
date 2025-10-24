@@ -74,7 +74,7 @@
     <ProjectGuid>{79537266-9ED1-4B1A-96FD-C005E621C849}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>Halo</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
