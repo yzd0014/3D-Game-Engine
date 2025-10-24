@@ -23,7 +23,7 @@
     <ProjectGuid>{29932845-9B7B-4E7D-9194-AD4EE1A035C7}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>MayaMeshExporter</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">

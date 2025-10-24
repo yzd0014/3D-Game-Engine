@@ -23,7 +23,7 @@
     <ProjectGuid>{49AB8576-BABD-4F63-8F77-2A0A2120EC52}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>ScopeCleanUp</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
